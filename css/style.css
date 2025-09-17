@@ -1,11 +1,11 @@
 .debug {
     border: 1px solid black;
-
-
+    
+    
     main{
         background-color: blueviolet;
     }
-
+    
     .middle1{
         background-color: blue;
     }
@@ -13,14 +13,14 @@
     .col{
         background-color: blue;
     }
-
+    
     .col-buisness{
         background-color: blue;
     }
-
+    
     .all{
         background-color: blue;
-}
+    }
 
     .enter{
         background-color: blue;
@@ -28,7 +28,7 @@
         align-items: center;
         font-size: 0.5rem;
     }
-
+    
     button{
         margin-top: 5px;
         color: white;
@@ -40,9 +40,19 @@
 }
 
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.container-pr{
+    width: 60%;
+    margin: auto;
 }
 
 body{
@@ -111,15 +121,6 @@ header{
 
 /* main */
 
-.container{
-    width: 70%;
-    margin: auto;
-}
-
-.container-pr{
-    width: 60%;
-    margin: auto;
-}
 
 .jumbotron{
     background-color: rgb(165, 180, 223);
@@ -140,6 +141,7 @@ header{
 }
 
 .corp{
+   display: block;
     p{
       font-size: 0.5rem;
       width: 100%;
