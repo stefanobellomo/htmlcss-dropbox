@@ -93,7 +93,7 @@ header{
 
 .logo{
     height: 1rem;
-
+    margin-right: 0.5rem;
 }
 
 .top{
@@ -113,8 +113,14 @@ header{
     }
 }
 
-.left-top{
+.team{
+   font-size: 0.8rem;
+   margin-bottom: 2rem;
    
+   h1{
+    width: 81%;
+    margin: 2rem 0;
+   }
 }
 
 /* main */
