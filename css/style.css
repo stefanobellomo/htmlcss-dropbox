@@ -1,0 +1,73 @@
+.debug {
+    border: 1px solid black;
+
+    header{
+        background-color: brown;
+        height: 100%;
+    }
+
+    main{
+        background-color: blueviolet;
+    }
+
+    .jumbotron{
+        background-color: aqua;
+        height: 300px;
+
+    }
+
+    .middle1{
+        background-color: blue;
+        height: 500px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "inter";
+}
+
+/* header */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.container-pr{
+    width: 60%;
+    margin: auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.jumbo{
+    width: 100%;
+
+}
+
+.col {
+  width: calc(100% / 3 - 1rem);
+}
+
+.left,
+.middle,
+.right
+{
+    height: 500px;
+    background-color: black;
+}
