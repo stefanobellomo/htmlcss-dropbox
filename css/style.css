@@ -1,22 +1,14 @@
 .debug {
     border: 1px solid black;
+   
+   
     
-    .middle1{
-        background-color: blue;
-    }
-
-    /* .col{
-        background-color: blue;
-    } */
-    
-    .col-buisness{
-        background-color: blue;
-    }
+   
     
     
 
     .enter{
-        background-color: blue;
+      
         margin: 2rem auto;
         align-items: center;
         font-size: 0.5rem;
@@ -37,6 +29,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --blue:#0061fe;
+    --celest:#b4d0e6;
+}
+
 .container{
     width: 70%;
     margin: 0 auto;
@@ -52,6 +49,10 @@ body{
 }
 
 /* utils */
+
+img{
+    width: 100%;
+}
 
 p{
       font-size: 0.5rem;
@@ -126,7 +127,8 @@ header{
 .d-flex{
   display: flex;
   margin: auto;
-  justify-content: center ;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .block{
@@ -144,7 +146,7 @@ header{
 }
 
 .air{
-    padding: 0.5rem
+    padding: 1.5rem 0;
 
     
 }
@@ -191,7 +193,7 @@ p.left{
 
 .col {
   width: calc(100% / 3);
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .buis-butt{
@@ -199,8 +201,8 @@ p.left{
     color: white;
     border: 0px solid black;
     background-color: blue;
-    padding: 3px;
-    margin: 0.5rem;
+    padding: 5px;
+    margin: 1rem;
 }
 
 ul.list{
@@ -235,7 +237,7 @@ ul.list{
 
 
 .col-buisness{
-     width: calc(100% / 3 - 1rem);
+     width: calc(100%/ 3);
 }
 
 .partner{
@@ -246,12 +248,26 @@ ul.list{
     max-width: 30%;
 }
 
-.left,
-.middle,
-.right
+.left
 {
     background-color: rgba(252, 252, 252, 0.308);
     margin: 0.5rem;
+}
+
+.enterprise{
+    margin: 2rem 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.in-en{
+    border-top: 1px solid black;
+    padding: 1rem;
+    text-align: left;
+}
+
+.row{
+    display: flex;
 }
 
 
