@@ -150,7 +150,12 @@ header{
 }
 .check{
     color: var(--blue);
+}
 
+.sep{
+    margin-top: 1rem;
+    border-top: 1px solid var(--lightgray);
+    width: 60%;
 }
 
 .air{
@@ -173,12 +178,6 @@ header{
 .enter{
     margin: 4rem auto;
     align-items: center;
-}
-
-.sep{
-    height: 1px;
-    background-color: var(--gray);
-    margin: 1rem 20rem 1rem 0.5rem;
 }
 
 p.left{
@@ -340,7 +339,9 @@ footer{
 }
 
 .language{
-    
+    border-top: 1px solid #e2e2e4;
+    width: 10%;
+    margin-left: 15%;
     color: var(--lightgray);
 
     p{
