@@ -1,12 +1,4 @@
 .debug {
-    border: 1px solid black;
-   
-   
-    
-   
-    
-    
-
     .enter{
       
         margin: 2rem auto;
@@ -14,13 +6,6 @@
         font-size: 0.5rem;
     }
     
-    /* button{
-        color: white;
-        border: 0px solid black;
-        background-color: rgb(118, 118, 212);
-        padding: 4px;
-        font-size: 0.5rem; 
-    }*/
 }
 
 *{
@@ -32,6 +17,7 @@
 :root{
     --blue:#0061fe;
     --celest:#b4d0e6;
+    --gray: #403d38;
 }
 
 .container{
@@ -42,6 +28,14 @@
 .container-pr{
     width: 60%;
     margin: 0 auto;
+}
+
+button{
+   color: white;
+   border: 0px solid black;
+   background-color:var(--blue);
+   padding: 4px;
+   font-size: 0.5rem; 
 }
 
 body{
@@ -99,12 +93,12 @@ header{
 .right-top{
     
     
-    button{
+    /* button{
         color: white;
         border: 0px solid black;
         background-color: blue;
         padding: 4px;
-    }
+    } */
 }
 
 .team{
@@ -162,20 +156,6 @@ header{
    p, button{
       display: block;
    }
-
-    button{
-      margin-top: 1rem;
-      font-size: 0.4rem;
-      margin: rem 0;
-      color: rgb(0, 0, 0);
-      border: 0px solid black;
-      background-color: rgb(140, 180, 200);
-    }
-
-    .start{
-        padding: 3px;
-        background-color: rgb(99, 99, 254);
-    }
 }
 
 .sep{
@@ -194,6 +174,7 @@ p.left{
 .col {
   width: calc(100% / 3);
   border: 1px solid black;
+  padding: 0 0.5rem;
 }
 
 .buis-butt{
@@ -207,7 +188,7 @@ p.left{
 
 ul.list{
    list-style: none;
-   padding: 0.5rem;
+   padding-top: 1.5rem;
    
    li{
     font-size: 0.5rem;
@@ -275,26 +256,34 @@ ul.list{
 
 footer{
     font-size: 0.5rem;
+    background-color: black;
+    padding: 2rem 0;
 }
 
 .right-side {
     width: 20%;
-    margin: 0 10px;
-    padding: 0 15px;
+    margin-bottom: 1rem;
+    padding: 0;
+    color: white;
 }
 
 .foot-flex {
     display: flex;
     flex-direction: column;
+    
+    a{
+     color: var(--gray);
+     padding-top: 0.2rem;
+        
+    }
 }
 
 .language{
-    border-top: 1px solid black;
-    
-    button{
-        margin-top: 5px;
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 7px;
+    border-top: 1px solid rgb(255, 255, 255);
+    color: var(--gray);
+
+    p{
+        margin-top: 1rem;
     }
 }
+
